@@ -33,5 +33,6 @@ int main(int argc, char **argv) {
 }
 ```
 
+## frida-server
 
-
+`frida-server-17.19.0-arm32-static` is Frida 17.19.0's server, built for ARMv7-A, little-endian, soft-float EABI (`arm-linux-gnueabi`), statically linked and stripped. It uses the QuickJS runtime (V8 is excluded). It was tested with `qemu-arm-static` (`--version` prints `17.19.0`)
